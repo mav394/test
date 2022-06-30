@@ -15,3 +15,8 @@ https://www.youtube.com/watch?v=qdec2M4NwT0
    menu esquerra -> cambios-> almacenar todos los cambios
 7. Ara posa enves de U una A que vol dir añadir
 8. menu esquerra tres punts -> commit -> confirmar todos
+9. apareix cuadre texte mensaje -> primer commit 
+10. al modificar un arxiu apareix una M de modificat
+   llavors sha de fer 
+   Cambios -> almacenar todos los cambios y 
+   Commit -> confirmar todo
