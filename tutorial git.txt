@@ -22,6 +22,11 @@ https://www.youtube.com/watch?v=qdec2M4NwT0
    Commit -> confirmar todo
 11. tot aixo es lo mateix que clicar al + i despres al check de dalt
 12. git remote add origin https://github.com/mav394/test.git
-
-    git branch -M main
-    git push -u origin main
+13. Menu esquerra-> 3punts -> insertar ->
+   apareix un missatge de la rama master no tiene ninguna rama
+   remota. Quiere publicar esta rama? Aceptar
+   Apareix el missatge:
+   
+   No tiene permisos para realizar la inserción en "mav394/test" 
+   en GitHub. ¿Desea crear una bifurcación y realizar mejor 
+   en ella la inserción? -> OK -> login a github
