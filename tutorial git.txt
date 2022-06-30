@@ -32,4 +32,4 @@ https://www.youtube.com/watch?v=qdec2M4NwT0
    en GitHub. ¿Desea crear una bifurcación y realizar mejor 
    en ella la inserción? -> OK -> login a github
 
-14. git config --global user.email "email@example.com"
+14. git config --global user.email "mavkenton28@gmail.com"
