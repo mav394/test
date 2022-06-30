@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=qdec2M4NwT0
+
+0. Ctrl + Shift + P -> Configurar idioma de pantalla -> español
+1. Install git
+2. Poses al projecte que vols al archiu 
+   per ejemple que es diu index.html
+2. Control + ñ o Terminal -> nueva Terminal
+3. Terminal: git init
+   Con esto se ha creado un repositorio en local
+   Aparece carpeta .git con el repositorio inicial
+4. Menu esquerra VSCode Buto del Git del arbre
+5. index.html apareix amb una U
+   aixo vol dir sense seguiment
+6. click als tres punts del buto del arbre de dalt del 
+   menu esquerra -> cambios-> almacenar todos los cambios
+7. Ara posa enves de U una A que vol dir añadir
+8. menu esquerra tres punts -> commit -> confirmar todos
