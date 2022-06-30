@@ -25,7 +25,8 @@ https://www.youtube.com/watch?v=qdec2M4NwT0
 13. Menu esquerra-> 3punts -> insertar ->
    apareix un missatge de la rama master no tiene ninguna rama
    remota. Quiere publicar esta rama? Aceptar
-   Apareix el missatge:
+   Apareix el missatge: la extension de github quiere iniciar session con github.
+   Logeiges a github. Amb nom usuari i password.
    
    No tiene permisos para realizar la inserción en "mav394/test" 
    en GitHub. ¿Desea crear una bifurcación y realizar mejor 
