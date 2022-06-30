@@ -33,3 +33,9 @@ https://www.youtube.com/watch?v=qdec2M4NwT0
    en ella la inserción? -> OK -> login a github
 
 14. git config --global user.email "mavkenton28@gmail.com"
+
+15. el que passa es que 
+    Control Panel\User Accounts\Credential Manager
+    guarda el user de github i pq
+    VSCode deixi cambiar de usuari lhas de borrar
+    
