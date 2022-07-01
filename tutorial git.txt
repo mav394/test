@@ -37,4 +37,30 @@ https://www.youtube.com/watch?v=qdec2M4NwT0
     guarda el user de github i pq
     VSCode deixi cambiar de usuari lhas de borrar
 
+-----------------------
+per veure tots els commits fets:
+a dins de la carpeta oculta .git del directori esta tot.. 
+-----------------------
+1. git log --oneline
 
+   HEAD -> master
+   HEAD -> main 
+   vol dir que estem a la branca master
+
+----------------
+CREAR BRANCA
+----------------
+1. git branch nom_branca_a_crear
+
+----------------------
+VEURE A QUINA BRANCA ESTIC i quines hi ha
+al crear una branca es fa una copia del repo
+----------------------
+1. git branch
+
+
+----------------------
+ANAR A UNA ALTRE BRANCA O LA NOVA CREADA
+a partir dara tot el que facis passara en aquesta branca
+----------------------
+1. git checkout nombre_rama_on_vull_anar
