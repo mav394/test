@@ -31,11 +31,10 @@ https://www.youtube.com/watch?v=qdec2M4NwT0
    No tiene permisos para realizar la inserción en "mav394/test" 
    en GitHub. ¿Desea crear una bifurcación y realizar mejor 
    en ella la inserción? -> OK -> login a github
-
 14. git config --global user.email "mavkenton28@gmail.com"
-
 15. el que passa es que 
     Control Panel\User Accounts\Credential Manager
     guarda el user de github i pq
     VSCode deixi cambiar de usuari lhas de borrar
-    
+
+
