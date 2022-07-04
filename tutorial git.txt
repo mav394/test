@@ -1,3 +1,7 @@
+-----------------------------------
+MODIFICACIO QUE NO ES VEU AL LOCAL
+-----------------------------------
+
 https://www.youtube.com/watch?v=qdec2M4NwT0
 
 0. Ctrl + Shift + P -> Configurar idioma de pantalla -> español
