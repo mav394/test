@@ -37,4 +37,163 @@ https://www.youtube.com/watch?v=qdec2M4NwT0
     guarda el user de github i pq
     VSCode deixi cambiar de usuari lhas de borrar
 
+-----------------------
+per veure tots els commits fets:
+a dins de la carpeta oculta .git del directori esta tot.. 
+-----------------------
+1. git log --oneline
 
+   HEAD -> master
+   HEAD -> main 
+   vol dir que estem a la branca master
+
+----------------
+CREAR BRANCA
+----------------
+1. git branch nom_branca_a_crear
+
+----------------------
+VEURE A QUINA BRANCA ESTIC i quines hi ha
+al crear una branca es fa una copia del repo
+----------------------
+1. git branch
+
+
+----------------------
+ANAR A UNA ALTRE BRANCA O LA NOVA CREADA
+a partir dara tot el que facis passara en aquesta branca
+----------------------
+1. git checkout nombre_rama_on_vull_anar
+
+es pot cambiar a la part de sota del VSCode
+on posa el simbol de git i el nom de la branca
+cliques i cambies de branca
+les que posa origin/nombranca es cambiar 
+a la branca que esta en global al servidor de git
+la que no ho posa es la local
+
+al cambiar de branca el VSCode et pot avisar
+que els archius han cambiat i si vols tornar a cambiar
+esta be perque al cambiar de branca cada archiu es diferent
+per tant el programa VSCode o el editor de texte
+ha de tornarlo a cambiar
+
+----------------------
+AGREGAR MODIFICACIONES
+----------------------
+1. git add .
+
+o git add nom_archiu_A_afegir.xxx
+
+o al menu esquerra del git clicar al + en el archiu
+fa que pssin els archius de U unfollowed a A
+Al fer un Add githib fa im seguiment del arxiu
+
+--------------
+FER COMMIT
+--------------
+git commit -m "nom dels cambis fets"
+
+Desde VSCode escriure missatge i fer Ctrl + Return
+i preguntara si vols que no passi el
+archiu a stage pero amb Always, pero llavors
+no podras comprobar els cambis fets abans de pujar a global
+
+------------
+MERGE
+------------
+
+1. anar a la branca master
+   git checkout master
+2. git merge nom_branca_que_vull_fusionar_amb_la_main
+
+o VSCode menu git tres punts branch merge
+
+despres et deixara triar entre incoming change o compare changes
+
+-------------------------
+ACTUALITZAR BRANCHE b1 a tal i com esta master actualment
+-------------------------
+git checkout b1
+git merge master
+
+o 
+
+git checkout b1
+git merge master
+git push
+
+---------------------
+BORRAR BRANCA
+---------------------
+
+1. git branch -d nom_branca_a_borrar
+
+
+1. VSCode menu View -> Command Palette
+                Ver -> Paleta de Comandos
+    Escribimos Git Clone
+    Et demana que escribas url del repositorio
+    Vas a la teu projecte dins de github i copies la url
+    i la poses aqui
+
+2. Et demana que especifiquis un directori on guardar el
+   repositori en local des don porder treballar
+
+3. demana si vols obrir el repositori clonaten local
+   si ha marxat el avis cliques a la campaneta 
+   i torna a apareixer
+
+------------------------------
+
+1. tambe es pot cambiar un archiu directament 
+desde a la web github clicant sobre archiu editar
+
+2. un cop has modifica desde github
+   vas s baix del VSCode i cliques al buto de sincronizar
+   pq actualizi el codi local amb el global
+
+------------------
+INICIAR
+------------------
+0. conda activate entorn_virtual_projecte
+1. git init
+2. Control Panel\User Accounts\Credential Manager
+    guarda el user de github i pq
+    VSCode deixi cambiar de usuari lhas de borrar
+3. git config --global user.email "lluiscudu2@gmail.com"
+4. clonar el codigo del repo:
+   copiar la url del codigo de github
+   te vas al directorio -> boton derecho ->
+   seleccionas git bash -> escribes
+   git clone https://github.com/JuanPi/CursoGit.git
+   git clone https://github.com/galeraga/3D-semantic-parsing.git
+
+------------------------------
+PREPARAR ENTORN PYTHON
+------------------------------
+anar a anaconda promt i executar com administrador
+1. veure si ja tinc entorns virtuals creats:
+   conda env list
+   aqui et surtira el entorn actual amb un *
+2. crear entorn virtual
+   conda create -n nom_entorn_virtual_a_crear python=3.8.1
+3. activar el entorn creat
+   conda activate nom_entorn_virtual_a_crear
+4. anar al directori on esta el projecte i on estat el requirements.txt
+   cd directori_on_anar
+   pip install -r requirements.txt
+
+
+
+git pull 
+git push
+git fetch
+
+-------------------------------------
+guardar versiones de proyecto TAGS
+-------------------------------------
+permet descarrearse desde githug versions de projecte
+1. git tag 15-09-20v1 -m "version 1 del proyecto"
+2. PER PUJAR EL TAG A global
+   git push --tags
